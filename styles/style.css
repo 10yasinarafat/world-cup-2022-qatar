@@ -20,16 +20,11 @@ h1 {
 }
 
 .container {
-
+    width: 1321px;
+    height: 646px;
     border-radius: 30px;
     background: #161616;
     padding-top: 50px;
-
-    width: 1321px;
-    height: 646px;
-
-
-
 }
 
 .heading {
@@ -74,6 +69,7 @@ nav {
     height: 613px;
     padding-top: 65px;
     padding-left: 80px;
+
 }
 
 .top-banner img {
@@ -87,6 +83,8 @@ nav {
     border-radius: 30px;
     padding-top: 50px;
 
+
+
 }
 
 .upcoming-match {
@@ -95,6 +93,7 @@ nav {
     background: #161616;
     border-radius: 10px;
     text-align: center;
+
 
 }
 
@@ -151,13 +150,29 @@ nav {
 .matchs {
     width: 312px;
     height: 362px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 23px;
+    padding-right: 700px;
+
+}
+
+.match {
+    padding-left: 24px;
 }
 
 .history {
+    margin-top: 20px;
+}
+
+span {
     text-decoration: none;
-    width: 67px;
-    height: 24px;
+    color: black;
+    width: 100px;
+    height: 32px;
     border: 1px solid black;
+    font-weight: 500;
+
 }
 
 .match-banner {
@@ -168,6 +183,46 @@ nav {
 
 .match-details {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-right: 210px;
+
+
+}
+
+.match-duration {
+    display: flex;
+
+
+}
+
+.finished {
+    color: #FFFFFF;
+    width: 1895px;
+    height: 444px;
+    background-color: #161616;
+    margin-top: 700px;
+    text-align: center;
+}
+
+.end {
+    padding-top: 130px;
+}
+
+.linkup {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.follow {
+    color: #FFFFFF;
+}
+
+.socail-media {
+    padding-top: 42px;
+}
+
+.fa-brands {
+    font-size: 24px;
+
 }
