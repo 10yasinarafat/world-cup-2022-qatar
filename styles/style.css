@@ -3,33 +3,171 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-
+    background: #FFFFFF;
 }
 
 /* -----top headeing and banner-------- */
-/* header {
-    justify-content: center;
-} */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.container {
+
+    border-radius: 30px;
+    background: #161616;
+    padding-top: 50px;
+
+    width: 1321px;
+    height: 646px;
+
+
+
+}
 
 .heading {
     display: flex;
-    width: 1321px;
-    height: 646px;
-    padding-left: 200px;
-    justify-content: center;
-    background: #161616;
-    border-radius: 30px;
+
+
 }
 
-.top-details {
+.top-heading {
     width: 531px;
     height: 424px;
+    padding-left: 106px;
+    padding-top: 110px;
+    padding-bottom: 110px;
     color: #FFFFFF;
+
+}
+
+nav {
+    padding-top: 30px;
+}
+
+
+.watch-live:hover {
+    opacity: 1
+}
+
+.watch-live {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: azure;
+    opacity: 0.6;
+    transition: 0.3s;
+
 
 }
 
 .top-banner {
     width: 581px;
     height: 613px;
+    padding-top: 65px;
+    padding-left: 80px;
+}
+
+.top-banner img {
+    width: 95%;
+}
+
+/* -------------Main Heading-----------------  */
+/*------------- Match Link  -----------*/
+.all-match {
+    display: flex;
+    border-radius: 30px;
+    padding-top: 50px;
+
+}
+
+.upcoming-match {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.link-match {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 252px;
+    height: 252px;
+
+}
+
+.ankor-padding {
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+
+.btn-1 {
+    text-decoration: none;
+    background: #FFFFFF;
+    width: 220px;
+    height: 60px;
+    border-radius: 8px;
+    color: black;
+    font-size: 22px;
+    padding-top: 10px;
+
+}
+
+.btn-2 {
+    text-decoration: none;
+    background: #FFFFFF;
+    width: 220px;
+    height: 60px;
+    border-radius: 8px;
+    color: black;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.btn-3 {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    width: 220px;
+    height: 60px;
+    border-radius: 8px;
     color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 25px;
+
+}
+
+/*---------------- Match History  ------------*/
+.matchs {
+    width: 312px;
+    height: 362px;
+}
+
+.history {
+    text-decoration: none;
+    width: 67px;
+    height: 24px;
+    border: 1px solid black;
+}
+
+.match-banner {
+
+    width: 312px;
+    height: 175px;
+}
+
+.match-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
